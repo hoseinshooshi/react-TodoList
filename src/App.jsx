@@ -3,7 +3,7 @@ import { useState } from 'react'
 //custom Compenets & hooks
 import useLocalStorage from './hooks/useLocalStorage'
 import CustomForm from './components/CustomForm'
-import TaskList from './components/taskList'
+import TaskList from './components/TaskList'
 import EditForm from './components/EditForm'
 function App() {
   const [tasks, setTasks] = useLocalStorage('react-todo.tasks',[])
